@@ -1,0 +1,105 @@
+//Naboo
+
+Router>enable
+Router#
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#
+Router(config)#ip route 192.168.32.0 255.255.254.0 12.0.0.0
+Router(config)#
+Router(config)#
+Router(config)#ip route 192.168.28.0 255.255.254.0 12.0.0.0
+Router(config)#ip route 192.168.24.0 255.255.252.0 12.0.0.0
+Router(config)#ip route 192.168.24.0 255.255.252.0 12.0.0.0
+Router(config)#ip route 192.168.16.0 255.255.248.0 12.0.0.0
+Router(config)#
+Router(config)#router rip
+Router(config-router)#
+Router(config-router)#end
+
+//Endor
+
+outer>enable
+Router#
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#ip route 192.168.0.1 255.255.240.0 12.0.0.0
+Router(config)#ip route 192.168.32.0 255.255.254.0 11.0.0.0
+Router(config)#ip route 192.168.28.0 255.255.254.0 11.0.0.0
+Router(config)#ip route 192.168.24.0 255.255.252.0 11.0.0.0
+Router(config)#ip route 192.168.16.0 255.255.248.0 11.0.0.0
+Router(config)#
+Router(config)#router rip
+Router(config-router)#
+Router(config-router)#end
+
+//Dagobath
+
+Router>enable
+Router#
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#
+Router(config)#ip route 192.168.30.0 255.255.254.0 11.0.0.0
+Router(config)#ip route 192.168.28.0 255.255.254.0 13.0.0.0
+Router(config)#ip route 192.168.0.0 255.255.240.0 11.0.0.0
+Router(config)#ip route 192.168.24.0 255.255.252.0 13.0.0.0
+Router(config)#ip route 192.168.16.0 255.255.248.0 13.0.0.0
+Router(config)#
+Router(config)#router rip
+Router(config-router)#
+Router(config-router)#end
+
+//Hoth
+
+Router>enable
+Router#
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#
+Router(config)#ip route 192.168.32.0 255.255.254.0 13.0.0.0
+Router(config)#ip route 192.168.32.1 255.255.254.0 13.0.0.0
+Router(config)#ip route 192.168.0.0 255.255.240.0 13.0.0.0
+Router(config)#ip route 192.168.24.0 255.255.252.0 14.0.0.0
+Router(config)#ip route 192.168.16.0 255.255.248.0 14.0.0.0
+Router(config)#
+Router(config)#router rip
+Router(config-router)#
+Router(config-router)#end
+
+//Bestpin
+
+Router>enable
+Router#
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#
+Router(config)#ip route 192.168.0.0 255.255.240.0 14.0.0.0
+Router(config)#ip route 192.168.30.0 255.255.254.0 14.0.0.0
+Router(config)#ip route 192.168.32.0 255.255.254.0 14.0.0.0
+Router(config)#ip route 192.168.28.0 255.255.254.0 14.0.0.0
+Router(config)#ip route 192.168.16.0 255.255.248.0 16.0.0.0
+Router(config)#
+Router(config)#router rip
+Router(config-router)#
+Router(config-router)#end
+
+//Tatooine
+
+Router>enable
+Router#
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#
+Router(config)#ip route 192.168.30.0 255.255.254.0 16.0.0.0
+Router(config)#ip route 192.168.32.0 255.255.254.0 16.0.0.0
+Router(config)#ip route 192.168.28.0 255.255.254.0 16.0.0.0
+Router(config)#ip route 192.168.24.0 255.255.252.0 16.0.0.0
+Router(config)#no ip route 192.168.0.0 255.255.240.0 16.0.0.0
+Router(config)#ip route 192.168.0.0 255.255.240.0 16.0.0.0
+Router(config)#
+Router(config)#router rip
+Router(config-router)#
+Router(config-router)#end
+
+
