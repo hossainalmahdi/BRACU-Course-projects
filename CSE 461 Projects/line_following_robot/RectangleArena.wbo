@@ -1,0 +1,12 @@
+#VRML_OBJ R2021b utf8
+RectangleArena {
+  translation 0 -0.2 0
+  floorSize 3 3
+  floorAppearance Appearance {
+    material Material {
+      diffuseColor 1 1 1
+    }
+  }
+  wallThickness 0.05
+  wallHeight 0.2
+}
